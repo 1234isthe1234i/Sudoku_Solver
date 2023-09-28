@@ -47,8 +47,9 @@ def solve():
                         grid[r][c] = 0
                 return 
     printgrid(grid)
-end_time = datetime.now()
+
 if __name__ == '__main__':
     solve()
+    end_time = datetime.now()
     print(end_time-start_time)
     
